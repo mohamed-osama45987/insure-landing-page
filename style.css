@@ -1,0 +1,111 @@
+/* make it responsive */
+@media (max-width: 900px) {
+  .first-part {
+    padding:auto;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+  }
+  .first-text {
+
+    text-align: left;
+    margin: auto;
+  }
+  .imageofhappyfamily {
+    text-align: right;
+    width:95%;
+    position: absolute;
+
+
+
+  }
+a{
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+}
+
+/* navbar */
+.navbar-nav {
+  margin-left: auto;
+}
+h1,
+h2,
+h3 {
+  font-family: "Merriweather", serif;
+  font-weight: 800;
+  font-size: 3rem;
+}
+h2 {
+  font-family: "Noto Serif", serif;
+}
+h3 {
+  font-size: 2rem;
+  margin-top: 8%;
+}
+
+hr {
+  background-color: white;
+  width: 10rem;
+  margin-left: 0;
+}
+/* first part  */
+.first-part {
+  padding: 3rem 5rem 3rem 5rem;
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  margin-right: 0;
+}
+.first-text {
+  padding-left: 0.5rem;
+  line-height: 1.5;
+  text-align: left;
+  width: 50%;
+  margin: auto;
+}
+.imageofhappyfamily {
+  position: relative;
+  right: 2%;
+  top: 20%;
+  z-index: 1;
+
+}
+
+/* seond part  */
+
+.second-section {
+  margin-top: 100px;
+  padding: 3rem 5rem 3rem 5rem;
+  text-align: left;
+  position: relative;
+  z-index: -1;
+}
+.Features {
+  margin-top: 80px;
+}
+.features-text {
+  color: grey;
+  line-height: 1.5;
+}
+/* last part before the footer */
+.last-one {
+  margin: 10% 5rem 10% 5rem;
+  text-align: center;
+  background-color: hsl(256, 26%, 20%);
+  padding: 3rem 5rem 3rem 5rem;
+  color: white;
+}
+/* footer */
+.footer {
+  background-color: hsl(0, 0%, 98%);
+
+  padding-top: 2%;
+}
+a {
+  display: block;
+  color: #4d4d4e;
+}
+a:hover {
+  color: black;
+}
